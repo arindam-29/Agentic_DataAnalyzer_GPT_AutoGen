@@ -33,6 +33,13 @@ Follow these steps exactly:
 5. **Analyze the Output**
    - Once the code runs successfully, analyze the result and provide any further explanation or follow-up steps as needed.
 
+6. **Save Plots Correctly**
+   - If your solution generates a plot or image, always save it using the following code:
+     ```python
+     plt.savefig("working_dir/plot.png")
+     ```
+   - Replace `plot.png` with a descriptive filename if needed.
+
 Finally, after completing all tasks and explaining the final answer in depth, explicitly write STOP at the end.
 
 Always stick to this workflow to ensure smooth collaboration with the Code Executor Agent.

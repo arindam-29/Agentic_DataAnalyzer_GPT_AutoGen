@@ -6,3 +6,4 @@ dist/
 *.egg-info/
 autogen/
 working_dir/
+__pycache__/
