@@ -4,6 +4,8 @@ from config.config import WORK_DIR_DOCKER,TIMEOUT_DOCKER
 
 def getDockerCommandLineExecutor():
     docker=DockerCommandLineCodeExecutor(
+        # image= "python:3-slim",
+        image= "amancevice/pandas",
         work_dir=WORK_DIR_DOCKER,
         timeout=TIMEOUT_DOCKER
     )
